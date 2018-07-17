@@ -1,14 +1,14 @@
 This project shows demonstration of my ability to download a messy disjointed data set and transform it into a tidy data set, whereby the data can be further analzyed.
 
-The orinal data can be found at the following website. 
+The original data can be found at the following website. 
 
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  
 Download the files and unzip the files, and then finally set your working directory in R to the file that contains the unzipped file.
  
-The run_analysis.R script can be used to download the training set and the test set along with the variable names, and the activity labels in the UI-HAR-DATASET, can you originally downloaded. 
+The run_analysis.R script can be used to download the training set and the test set along with the variable names and the activity labels in the UI-HAR-DATASET, that you originally downloaded. 
 
-The R Scripts performs the following functions:
+The R Scripts performs the following functions to the UCI data set:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
